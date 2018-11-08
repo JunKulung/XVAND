@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+nav {
+	padding: 0% 8%;
+	background-color: #161616;
+	color: white;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav li {
+	list-style: none;
+	margin: 0% .5%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 15px 10px;
+	position: relative;
+}
+
+nav .logo {
+	margin-right: auto;
+}
+
+nav .active {
+	color: #9bca3c;
+}
+
+#background {
+	background: url(2.jpg) no-repeat;
+	transition: 1s;
+	width: 100%;
+	text-align: center;
+	height: 550px;
+}
+
+#background h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 2px;
+	padding-top: 5%;
+	font-size: 40px;
+}
+
+#background p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+
+.firstcontent {
+	background-color: #9bca3c;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+.firstcontent p {
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #161616;
+}
+
+.firstcontent h1 {
+	letter-spacing: 5px;
+	font-weight: 500;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 60px;
+	color: #161616;
+}
+
+.content-content {
+	display: flex;
+	padding: 3% 8%;
+	flex-flow: row wrap;
+}
+
+.content-content .content {
+	text-align: center;
+	flex-basis: 14%;
+	margin-left: 2%;
+}
+
+.content-content .content p {
+	margin-top: 10%;
+}
+
+.firstcontent button {
+	color: white;
+	background-color: #161616;
+	border: none;
+	padding: 10px 25px;
+	letter-spacing: 2px;
+	border-radius: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-bottom: 5%;
+}
+
+.center,
+.third-content h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+	color: #161616;
+	letter-spacing: 2px;
+	padding-top: 3%;
+	font-size: 40px;
+	text-align: center;
+}
+
+.center-center {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #161616;
+	margin-bottom: 5%;
+}
+
+.second-content {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0% 8%;
+}
+
+.second-content .content {
+	flex-basis: 49%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.second-content .content h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 15%;
+	margin-bottom: 4%;
+	letter-spacing: 1px;
+	padding: 0 10%;
+}
+
+.second-content .content p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 0 10%;
+}
+
+.second-content .content button {
+	color: #161616;
+	background-color: #9bca3c;
+	border: none;
+	padding: 10px 25px;
+	letter-spacing: 2px;
+	border-radius: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 5%;
+}
+
+.third-content {
+	margin-top: 4%;
+	background-color: #9bca3c;
+	text-align: center;
+}
+
+.third-content p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+}
+
+.third-content .name {
+	color: white;
+	font-weight: 800;
+	margin: 2% 0 1%;
+}
+
+.third-content .blockqoute {
+	padding: 0 8%;
+	font-style: italic;
+	padding-bottom: 4%;
+}
+
+.fourthcontent {
+	text-align: center;
+	margin-top: -3%;
+	margin-bottom: 5%;
+}
+
+.fourthcontent img {
+	margin: 0 2%;
+}
+
+footer {
+	background-color: #161616;
+	padding: 3% 3%;
+	display: flex;
+	justify-content: space-around;
+	text-transform: uppercase;
+}
+
+footer h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #9bca3c;
+	margin-bottom: 4%;
+}
+
+footer p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: white;
+}
